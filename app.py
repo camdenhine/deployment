@@ -58,8 +58,8 @@ app.layout = html.Div([
     ], style={'display': 'inline-block', 'width': '49%'}),
 
     html.Footer([
-        html.H2('For more information about this project, please see details here:   ', 
-                style={'display': 'inline-block', 'padding' : '10px'}), 
+        html.H2('For more information about this project, please see details here →', 
+                style={'display': 'inline-block', 'padding' : '10px'}),
 
         html.A(html.Img(src = app.get_asset_url('github-mark.png'), style = {'width': '40px', 'height' : 'auto'}), 
             href = 'https://github.com/camdenhine')
